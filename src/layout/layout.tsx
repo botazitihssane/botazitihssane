@@ -5,10 +5,12 @@ import {SideBarLinks} from "@/components/ui/sidebar/side-links";
 
 const Layout = ({children}: PropsWithChildren) => {
     return (
-        <div style={{position: 'relative', minHeight: '100vh'}}>
+        <div style={{position: 'relative', minHeight: '100vh', display: 'flex', flexDirection: 'column'}}>
             <BackgroundBeams/>
             <FloatingNavbar/>
-            {children}
+            <div className="flex-grow">
+                {children}
+            </div>
             <SideBarLinks/>
         </div>
     );
