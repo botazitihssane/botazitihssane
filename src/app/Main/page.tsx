@@ -1,4 +1,3 @@
-import {AppProps} from "next/app";
 import Intro from "@/components/ui/into/intro";
 import About from "@/components/ui/about/about";
 

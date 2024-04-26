@@ -9,7 +9,7 @@ const Intro = ({children}: PropsWithChildren) => {
         <>
             <div className="flex">
                 <div className="flex-1 items-center justify-start">
-                    <div className="flex flex-col items-start justify-center h-[800px] ">
+                    <div className="flex flex-col items-start justify-center h-[750px] ">
                         <>
                             <div
                                 className="text-base sm:text-xl md:text-2xl flex justify-center items-center lg:text-2xl font-semibold text-center mt-6 text-sky-500 italic">
@@ -43,7 +43,7 @@ const Intro = ({children}: PropsWithChildren) => {
                         </>
                     </div>
                 </div>
-                <div className="flex h-screen items-center justify-center">
+                <div className="flex  items-center justify-center">
                     <div className="animate-float">
                         <Image src={avatar} alt="Avatar" width={500} height={500}/>
                     </div>
