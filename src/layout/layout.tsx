@@ -9,6 +9,7 @@ const Layout = ({children}: PropsWithChildren) => {
             <BackgroundBeams/>
             <FloatingNavbar/>
             <div className="flex-grow">
+
                 {children}
             </div>
             <SideBarLinks/>
