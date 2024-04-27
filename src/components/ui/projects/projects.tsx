@@ -76,11 +76,11 @@ const Projects = ({children}: PropsWithChildren) => {
     ];
 
     return (
-        <div className="flex justify-center items-center h-[900px]">
+        <div className="flex justify-center items-start h-[950px]">
             <div
-                className="w-full h-screen items-center">
-                <div className="flex flex-col items-start mt-5">
-                    <div className="text-center w-full">
+                className="w-full items-center">
+                <div className="flex flex-col items-start">
+                    <div className="text-center w-full mt-5">
                         <h1 className="sm:text-xl md:text-2xl lg:text-3xl text-white font-semibold mb-4 ">My
                             projects</h1>
                     </div>

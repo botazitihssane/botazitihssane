@@ -1,6 +1,7 @@
 import Intro from "@/components/ui/into/intro";
 import About from "@/components/ui/about/about";
 import Projects from "@/components/ui/projects/projects";
+import Testimonial from "@/components/testimonial/testimonial";
 
 export default function Main() {
     return (
@@ -8,6 +9,7 @@ export default function Main() {
             <Intro/>
             <About/>
             <Projects/>
+            <Testimonial/>
         </div>
 
     );
