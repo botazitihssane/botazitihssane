@@ -3,7 +3,7 @@ import {PropsWithChildren} from "react";
 
 const About = ({children}: PropsWithChildren) => {
     return (
-        <div className="flex justify-center items-center h-screen">
+        <div className="flex justify-center items-center h-[900px]">
             <div
                 className="bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl rounded-lg w-[1100px] h-screen flex justify-center pr-10 pl-10 pt-6">
                 <div className="flex flex-col items-start mt-5">
