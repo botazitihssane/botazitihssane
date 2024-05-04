@@ -18,44 +18,46 @@ export const HoverEffect = ({
     let [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
 
     return (
-        <div
-            className={cn(
-                "grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3  py-10",
-                className
-            )}
-        >
-            {items.map((item, idx) => (
-                <Link
-                    href={item?.link || ''}
-                    key={item?.link}
-                    className="relative group  block p-2 h-full w-full"
-                    onMouseEnter={() => setHoveredIndex(idx)}
-                    onMouseLeave={() => setHoveredIndex(null)}
-                >
-                    <AnimatePresence>
-                        {hoveredIndex === idx && (
-                            <motion.span
-                                className="absolute inset-0 h-full w-full bg-slate-800 block rounded-lg"
-                                layoutId="hoverBackground"
-                                initial={{opacity: 0}}
-                                animate={{
-                                    opacity: 1,
-                                    transition: {duration: 0.15},
-                                }}
-                                exit={{
-                                    opacity: 0,
-                                    transition: {duration: 0.15, delay: 0.2},
-                                }}
-                            />
-                        )}
-                    </AnimatePresence>
-                    <Card>
-                        <CardTitle>{item.title}</CardTitle>
-                        <CardDescription>{item.description}</CardDescription>
-                        <CardTools>{item.tools}</CardTools>
-                    </Card>
-                </Link>
-            ))}
+        <div className="flex justify-center">
+            <div
+                className={cn(
+                    "grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 py-10",
+                    className
+                )}
+            >
+                {items.map((item, idx) => (
+                    <Link
+                        href={item?.link || ''}
+                        key={item?.link}
+                        className="relative group block p-2 h-full w-full"
+                        onMouseEnter={() => setHoveredIndex(idx)}
+                        onMouseLeave={() => setHoveredIndex(null)}
+                    >
+                        <AnimatePresence>
+                            {hoveredIndex === idx && (
+                                <motion.span
+                                    className="absolute inset-0 h-full w-full bg-slate-800 block rounded-lg"
+                                    layoutId="hoverBackground"
+                                    initial={{opacity: 0}}
+                                    animate={{
+                                        opacity: 1,
+                                        transition: {duration: 0.15},
+                                    }}
+                                    exit={{
+                                        opacity: 0,
+                                        transition: {duration: 0.15, delay: 0.2},
+                                    }}
+                                />
+                            )}
+                        </AnimatePresence>
+                        <Card>
+                            <CardTitle>{item.title}</CardTitle>
+                            <CardDescription>{item.description}</CardDescription>
+                            <CardTools>{item.tools}</CardTools>
+                        </Card>
+                    </Link>
+                ))}
+            </div>
         </div>
     );
 };
@@ -70,7 +72,7 @@ export const Card = ({
     return (
         <div
             className={cn(
-                "h-full w-[440px] p-4 overflow-hidden bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl rounded-lg group-hover:border-slate-700 relative z-20",
+                "h-full sm:w-[600px] md:w-[360px] lg:w-[340px] p-4 overflow-hidden bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl rounded-lg group-hover:border-slate-700 relative z-20",
                 className
             )}
         >
@@ -88,7 +90,7 @@ export const CardTitle = ({
     children: React.ReactNode;
 }) => {
     return (
-        <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 text-2xl", className)}>
+        <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 text-xl", className)}>
             {children}
         </h4>
     );

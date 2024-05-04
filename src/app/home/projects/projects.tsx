@@ -77,15 +77,15 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
     ];
 
     return (
-        <div className="flex justify-center items-start h-[950px]">
-            <div
-                className="w-full items-center">
-                <div className="flex flex-col items-start">
+        <div className="flex justify-center items-center w-full h-full">
+            <div className="max-w-6xl w-full px-4">
+                <div className="flex flex-col items-center">
                     <div className="text-center w-full mt-5">
-                        <h1 className="sm:text-xl md:text-2xl lg:text-3xl text-white font-semibold mb-4 ">My
-                            projects</h1>
+                        <h1 className="sm:text- md:text-base lg:text-xl text-white font-semibold mb-4">My projects</h1>
                     </div>
-                    <HoverEffect items={projectItems}/>
+                    <div className="w-full sm:w-auto">
+                        <HoverEffect items={projectItems}/>
+                    </div>
                 </div>
             </div>
         </div>
