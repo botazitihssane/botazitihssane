@@ -7,21 +7,19 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const projectItems = [
         {
             title: "Eval",
-            description: "An interactive coding game for corporate candidate assessment, offering diverse question formats, detailed reports for candidates and recruiters.",
+            description: "A coding game platform for corporate candidate assessment, offering diverse question formats, detailed reports for candidates and recruiters.",
             tools: [
                 "Typescript",
                 "React",
                 "Java",
                 "Spring",
-                "Figma",
                 "Docker",
-                "Keycloak",
                 "PostgreSQL"
             ]
         },
         {
             title: "eWallet",
-            description: "A versatile web platform empowering users to manage their finances effectively. Seamlessly budget expenses, allocate savings, and track monthly goals, all enhanced with sophisticated data modeling capabilities.",
+            description: "Seamlessly budget expenses, allocate savings, and track monthly goals, all enhanced with sophisticated data modeling capabilities.",
             tools: [
                 "Typescript",
                 "Angular",
@@ -32,13 +30,10 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
         },
         {
             title: "CivilChain",
-            description: "An innovative application leveraging web3 technology to securely store civil status contracts on the blockchain network through smart contracts. It facilitates also the efficient management of the Ministry of the Interior's administrative structure.",
+            description: "Integrating web3 technology to securely store civil status contracts on the blockchain network through smart contracts.",
             tools: [
                 "Solidity",
                 "Ethereum",
-                "Truffle",
-                "Ganache",
-                "Smart contract",
                 "Java",
                 "Spring",
                 "JavaScript",
@@ -48,7 +43,7 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
         },
         {
             title: "DocConnect",
-            description: "A virtual healthcare platform enabling online video appointments between patients and doctors. Born out of the pandemic's necessity, it provides a safe and efficient way for healthcare professionals to connect with their patients remotely.",
+            description: "Born out of the pandemic's necessity, a virtual healthcare platform enabling online video appointments between patients and doctors.",
             tools: [
                 "Laravel",
                 "PHP",
@@ -58,7 +53,7 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
         },
         {
             title: "Workout Buddy",
-            description: "A fitness application designed to help you track your daily food intake, count calories, schedule workouts, and plan your path to achieving your fitness goals. This app provides personalized workout plans, meal recommendations, and sleep schedules tailored to your specific objectives.",
+            description: "A fitness application designed to help you track your daily food intake, count calories, schedule workouts, and plan your path to achieving your fitness goals.",
             tools: [
                 "Flutter",
                 "Dart",
@@ -80,7 +75,8 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
             <div className="max-w-6xl w-full px-4">
                 <div className="flex flex-col items-center">
                     <div className="text-center w-full mt-5">
-                        <h1 className="sm:text-base md:text-xl lg:text-xl text-white font-semibold mb-4">My projects</h1>
+                        <h1 className="sm:text-base md:text-xl lg:text-xl text-white font-semibold mb-4">My
+                            projects</h1>
                     </div>
                     <div className="w-full sm:w-auto">
                         <HoverEffect items={projectItems}/>
