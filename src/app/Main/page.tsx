@@ -1,7 +1,7 @@
 import Intro from "@/components/ui/into/intro";
 import About from "@/components/ui/about/about";
 import Projects from "@/components/ui/projects/projects";
-import Testimonial from "@/components/testimonial/testimonial";
+import Testimonial from "@/components/ui/testimonial/testimonial";
 
 export default function Main() {
     return (
