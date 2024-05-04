@@ -1,7 +1,8 @@
 'use client';
 import {PropsWithChildren} from "react";
+import {ComponentProps} from "@/types/ComponentProps";
 
-const About = ({children}: PropsWithChildren) => {
+const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
     return (
         <div className="flex justify-center items-center h-[900px]">
             <div
