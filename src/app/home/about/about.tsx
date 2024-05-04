@@ -9,7 +9,7 @@ const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
                 className="bg-slate-900/[0.8] border border-slate-800 backdrop-blur-base rounded-lg w-[1100px] min-h-[0] h-auto flex justify-center pr-10 pl-10 pt-6">
                 <div className="flex flex-col items-start mt-5">
                     <div className="text-center">
-                        <h1 className="sm:text-base md:text-base lg:text-2base text-white font-semibold mb-4">About
+                        <h1 className="sm:text-base md:text-xl lg:text-xl text-white font-semibold mb-4">About
                             Me</h1>
                         <p
                             className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>

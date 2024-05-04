@@ -51,7 +51,7 @@ const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
                     <h1 className="w-full sm:text-base md:text-base lg:text-xl text-white font-semibold mb-4 text-center">
                         Perspectives from Former Teammates, Instructors, Mentors and Supervisors
                     </h1>
-                    <p className="w-full text-base sm:text-base md:text-base lg:text-xl font-normal mb-4 text-slate-500 text-center">
+                    <p className="w-full text-base sm:text-sm md:text-base lg:text-base font-normal mb-4 text-slate-500 text-center">
                         Did we work together? Leave a comment too!
                     </p>
                     <div className="w-full mb-14 flex justify-center">

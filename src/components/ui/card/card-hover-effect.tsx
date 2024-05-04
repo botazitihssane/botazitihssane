@@ -90,7 +90,7 @@ export const CardTitle = ({
     children: React.ReactNode;
 }) => {
     return (
-        <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 text-xl", className)}>
+        <h4 className={cn("text-zinc-100 font-bold tracking-wide mt-4 text-base", className)}>
             {children}
         </h4>
     );
@@ -105,7 +105,7 @@ export const CardDescription = ({
     return (
         <p
             className={cn(
-                "mt-8 text-zinc-400 tracking-wide leading-relaxed text-base font-normal text-justify",
+                "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm font-normal text-justify",
                 className
             )}
         >
@@ -123,7 +123,7 @@ export const CardTools = ({
 }) => {
     return (
         <div
-            className={cn("mt-8 tracking-wide leading-relaxed text-base font-semibold text-justify text-pink-700 flex flex-wrap", className)}>
+            className={cn("mt-8 tracking-wide leading-relaxed text-sm font-semibold text-justify text-pink-700 flex flex-wrap", className)}>
             {children.map((tool, index) => (
                 <span key={index} className="mr-4 mb-0.5">{tool}</span>
             ))}
