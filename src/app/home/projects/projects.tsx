@@ -7,7 +7,7 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const projectItems = [
         {
             title: "Eval",
-            description: "An interactive coding game designed for corporations to assess candidates suitability for specific positions and coding skills. The platform offers a diverse range of question formats and provides detailed reports on candidate results for both candidates and recruiters.",
+            description: "An interactive coding game for corporate candidate assessment, offering diverse question formats, detailed reports for candidates and recruiters.",
             tools: [
                 "Typescript",
                 "React",
@@ -15,7 +15,6 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
                 "Spring",
                 "Figma",
                 "Docker",
-                "Jenkins",
                 "Keycloak",
                 "PostgreSQL"
             ]
@@ -81,7 +80,7 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
             <div className="max-w-6xl w-full px-4">
                 <div className="flex flex-col items-center">
                     <div className="text-center w-full mt-5">
-                        <h1 className="sm:text- md:text-base lg:text-xl text-white font-semibold mb-4">My projects</h1>
+                        <h1 className="sm:text-base md:text-xl lg:text-xl text-white font-semibold mb-4">My projects</h1>
                     </div>
                     <div className="w-full sm:w-auto">
                         <HoverEffect items={projectItems}/>

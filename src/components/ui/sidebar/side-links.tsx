@@ -7,11 +7,11 @@ export function SideBarLinks() {
     const sideItems = [
         {
             link: "https://github.com/botazitihssane",
-            icon: <TbBrandGithubFilled className="h-6 w-6 text-blue-500 dark:text-white"/>,
+            icon: <TbBrandGithubFilled className="h-6 w-6 text-blue-500 "/>,
         },
         {
             link: "https://www.linkedin.com/in/ihssanebotazit/",
-            icon: <TbBrandLinkedin className="h-6 w-6 text-blue-500 dark:text-white"/>,
+            icon: <TbBrandLinkedin className="h-6 w-6 text-blue-500"/>,
         },
     ];
     return (
@@ -27,14 +27,14 @@ export function SideBarLinks() {
             <div
                 className="fixed hidden lg:w-28 w-1/2 left-0 bottom-0 lg:bottom-64 lg:flex lg:flex-col lg:justify-end lg:items-center lg:h-5/6">
                 <a href="mailto:botazitihssane@outlook.com"
-                   className="text-sky-500 flex flex-col items-center">
+                   className="text-sky-500 flex flex-col text-base items-center">
                     <span
                         className="whitespace-nowrap lg:transform lg:-rotate-90 font-normal antialiased">botazitihssane@outlook.com</span>
                 </a>
             </div>
 
             <div className="fixed lg:w-28 left-0 bottom-0 lg:flex lg:flex-col lg:justify-end lg:items-center lg:h-5/6">
-                <div className="bg-sky-500 h-44 w-px"/>
+                <div className="bg-sky-500 h-36 w-px"/>
             </div>
 
         </div>
