@@ -9,19 +9,19 @@ const Intro = ({children}: PropsWithChildren) => {
         <>
             <div className="flex mt-20">
                 <div className="flex-1 items-center justify-start m-5">
-                    <div className="flex flex-col items-start justify-center mt-24">
+                    <div className="flex flex-col items-start justify-center">
                         <>
                             <div
-                                className="text-base sm:text-base md:text-base flex justify-center items-center lg:text-xl font-semibold text-center mt-6 text-sky-500 italic">
+                                className="text-base sm:text-base md:text-base flex justify-center items-center lg:text-base font-semibold text-center mt-6 text-sky-500 italic">
                                 <div className="h-2 w-6 border-b border-sky-500 italic mr-0.5 "></div>
                                 <p> Hello ! </p>
                             </div>
                             <div
-                                className={"text-base sm:text-base md:text-base lg:text-xl font-semibold text-center mt-6 text-neutral-400"}>
+                                className={"text-base sm:text-base md:text-base lg:text-base font-semibold text-center mt-6 text-neutral-400"}>
                                 <p> I&apos;m Ihssane Botazit</p>
                             </div>
                             <div
-                                className={"text-base sm:text-base md:text-base lg:text-xl font-normal text-justify mt-6 text-slate-500"}>
+                                className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>
                                 <p>I&apos;m a <span className="text-sky-500">software engineering intern </span>deeply
                                     passionate about <span className="text-sky-500">full-stack development</span>,
                                     particularly in <span className="text-pink-700"> Java</span>,<span
@@ -35,7 +35,7 @@ const Intro = ({children}: PropsWithChildren) => {
                                     solutions together!</p>
                             </div>
                             <div
-                                className="text-base sm:text-xl md:text-xl lg:text-xl font-normal text-justify mt-14 text-slate-500">
+                                className="text-base sm:text-xl md:text-xl lg:text-base font-normal text-justify mt-14 text-slate-500">
                                 <Button>
                                     Download resume
                                 </Button>
@@ -45,7 +45,7 @@ const Intro = ({children}: PropsWithChildren) => {
                 </div>
                 <div className="hidden lg:flex  items-center justify-center">
                     <div className="animate-float">
-                        <Image src={avatar} alt="Avatar" width={500} height={500}/>
+                        <Image src={avatar} alt="Avatar" width={400} height={400}/>
                     </div>
                 </div>
             </div>

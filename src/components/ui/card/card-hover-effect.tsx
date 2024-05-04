@@ -21,7 +21,7 @@ export const HoverEffect = ({
         <div className="flex justify-center">
             <div
                 className={cn(
-                    "grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 py-10",
+                    "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-10",
                     className
                 )}
             >
@@ -72,7 +72,7 @@ export const Card = ({
     return (
         <div
             className={cn(
-                "h-full sm:w-[600px] md:w-[360px] lg:w-[340px] p-4 overflow-hidden bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl rounded-lg group-hover:border-slate-700 relative z-20",
+                "h-full sm:w-[600px] lg:w-[330px] p-4 overflow-hidden bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl rounded-lg group-hover:border-slate-700 relative z-20",
                 className
             )}
         >
