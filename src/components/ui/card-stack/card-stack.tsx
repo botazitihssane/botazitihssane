@@ -54,7 +54,7 @@ export const CardStack = ({
     };
 
     return (
-        <div className="relative h-60 w-60 md:h-60 md:w-96">
+        <div className="relative h-60 w-96 md:h-60">
             {cards.map((card, index) => {
                 const isStackedCard = index > 0 && index <= 3;
                 const isCurrentCard = index === hoveredIndex;
@@ -62,7 +62,7 @@ export const CardStack = ({
                 return (
                     <motion.div
                         key={card.id}
-                        className={`absolute bg-white h-60 w-60 md:h-60 md:w-96 rounded-3xl p-4 shadow-xl ${
+                        className={`absolute bg-white h-60 w-96 md:h-60 md:w-96 rounded-3xl p-4 shadow-xl ${
                             isCurrentCard ? "border-4 border-slate-800 border-solid" : "" 
                         } shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between`}
                         style={{

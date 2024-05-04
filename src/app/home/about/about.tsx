@@ -4,14 +4,15 @@ import {ComponentProps} from "@/types/ComponentProps";
 
 const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
     return (
-        <div className="flex justify-center items-center h-[900px]">
+        <div className="flex justify-center items-center min-h-screen m-5">
             <div
-                className="bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl rounded-lg w-[1100px] h-screen flex justify-center pr-10 pl-10 pt-6">
+                className="bg-slate-900/[0.8] border border-slate-800 backdrop-blur-base rounded-lg w-[1100px] min-h-[0] h-auto flex justify-center pr-10 pl-10 pt-6">
                 <div className="flex flex-col items-start mt-5">
                     <div className="text-center">
-                        <h1 className="sm:text-xl md:text-2xl lg:text-3xl text-white font-semibold mb-4">About Me</h1>
+                        <h1 className="sm:text-base md:text-base lg:text-2base text-white font-semibold mb-4">About
+                            Me</h1>
                         <p
-                            className={"text-base sm:text-xl md:text-xl lg:text-xl font-normal text-justify mt-6 text-slate-500"}>
+                            className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>
                             During my first year at <span className="text-sky-500">FST Settat</span>, I stumbled upon
                             software development while pursuing a
                             completely different path in biology, geology, and chemistry. It was during a secondary
@@ -21,14 +22,14 @@ const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
                             <span className="text-sky-500"> Moroccan School of Engineering (EMSI)</span> in Marrakech,
                             where I embarked on a journey to delve
                             deeper into the realm of software engineering.</p>
-                        <p className={"text-base sm:text-xl md:text-xl lg:text-xl font-normal text-justify mt-6 text-slate-500"}>
+                        <p className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>
 
                             Throughout my five years at EMSI, I delved into various programming languages and tools
                             through hands-on projects. Each project not only deepened my enjoyment of programming but
                             also expanded my knowledge base. It felt like I was carving my own path in the technology
                             landscape, continually improving my coding skills with each endeavor.
                         </p>
-                        <p className={"text-base sm:text-xl md:text-xl lg:text-xl font-normal text-justify mt-6 text-slate-500"}>
+                        <p className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>
                             Along this journey, I encountered numerous challenges that served as opportunities for
                             growth and learning. From
                             <span className="text-pink-700"> fixing tricky problems in code </span>,
@@ -41,7 +42,7 @@ const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
                             my confidence but also fueled my
                             passion for coding.
                         </p>
-                        <p className={"text-base sm:text-xl md:text-xl lg:text-xl font-normal text-justify mt-6 text-slate-500"}>
+                        <p className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>
 
                             As I approach the end of my journey at EMSI, I am grateful for the experiences that have
                             shaped me into the programmer I am today. Each line of code I&apos;ve written signifies not
@@ -49,7 +50,7 @@ const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
                             a technical accomplishment but also reflects my enthusiasm for innovation and my dedication
                             to mastering my craft.
                         </p>
-                        <p className={"text-base sm:text-xl md:text-xl lg:text-xl font-normal text-justify mt-6 text-slate-500"}>
+                        <p className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500 mb-10"}>
 
                             Looking forward, I am excited to begin my professional journey in software engineering. I
                             eagerly anticipate the chance to explore new technologies, tackle fresh challenges, and make
