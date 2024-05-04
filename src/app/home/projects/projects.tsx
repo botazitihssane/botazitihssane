@@ -1,8 +1,9 @@
 'use client';
 import {PropsWithChildren} from "react";
 import {HoverEffect} from "@/components/ui/card/card-hover-effect";
+import {ComponentProps} from "@/types/ComponentProps";
 
-const Projects = ({children}: PropsWithChildren) => {
+const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const projectItems = [
         {
             title: "Eval",

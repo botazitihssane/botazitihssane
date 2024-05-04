@@ -3,8 +3,9 @@ import {PropsWithChildren, useState} from "react";
 import {CardStack} from "@/components/ui/card-stack/card-stack";
 import {HoverBorderGradient} from "@/components/ui/button/hover-border-gradiant-button";
 import {TestimonialForm} from "@/components/ui/form/testimonial-form";
+import {ComponentProps} from "@/types/ComponentProps";
 
-const Testimonial = ({children}: PropsWithChildren) => {
+const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const [showForm, setShowForm] = useState(false);
 
     const cardData = [

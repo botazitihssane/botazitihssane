@@ -1,10 +1,10 @@
 import Layout from "@/layout/layout";
-import Main from "@/app/Main/page";
+import Main from "@/app/home";
 
 export default function Home() {
     return (
         <Layout>
-            <Main />
+            <Main/>
         </Layout>
     );
 }
