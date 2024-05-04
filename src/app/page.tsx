@@ -1,11 +1,10 @@
 import Layout from "@/layout/layout";
-import {AppProps} from "next/app";
 import Main from "@/app/Main/page";
 
-export default function Home({}: AppProps) {
+export default function Home() {
     return (
         <Layout>
-            <Main/>
+            <Main />
         </Layout>
     );
 }

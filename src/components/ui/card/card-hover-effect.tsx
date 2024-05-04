@@ -1,7 +1,7 @@
 import {cn} from "@/utils/cn";
 import {AnimatePresence, motion} from "framer-motion";
-import Link from "next/link";
 import {useState} from "react";
+import Link from "next/link";
 
 export const HoverEffect = ({
                                 items,
@@ -25,7 +25,9 @@ export const HoverEffect = ({
             )}
         >
             {items.map((item, idx) => (
-                <div
+                <Link
+                    href={item?.link || ''}
+                    key={item?.link}
                     className="relative group  block p-2 h-full w-full"
                     onMouseEnter={() => setHoveredIndex(idx)}
                     onMouseLeave={() => setHoveredIndex(null)}
@@ -52,7 +54,7 @@ export const HoverEffect = ({
                         <CardDescription>{item.description}</CardDescription>
                         <CardTools>{item.tools}</CardTools>
                     </Card>
-                </div>
+                </Link>
             ))}
         </div>
     );
@@ -118,7 +120,8 @@ export const CardTools = ({
     children: string[];
 }) => {
     return (
-        <div className={cn("mt-8 tracking-wide leading-relaxed text-base font-semibold text-justify text-pink-700 flex flex-wrap", className)}>
+        <div
+            className={cn("mt-8 tracking-wide leading-relaxed text-base font-semibold text-justify text-pink-700 flex flex-wrap", className)}>
             {children.map((tool, index) => (
                 <span key={index} className="mr-4 mb-0.5">{tool}</span>
             ))}
