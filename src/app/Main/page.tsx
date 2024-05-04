@@ -11,6 +11,5 @@ export default function Main() {
             <Projects/>
             <Testimonial/>
         </div>
-
     );
 }
