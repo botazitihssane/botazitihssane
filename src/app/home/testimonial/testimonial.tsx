@@ -1,32 +1,38 @@
 'use client';
-import {PropsWithChildren, useState} from "react";
+import {PropsWithChildren, useEffect, useState} from "react";
 import {CardStack} from "@/components/ui/card-stack/card-stack";
 import {HoverBorderGradient} from "@/components/ui/button/hover-border-gradiant-button";
 import {TestimonialForm} from "@/components/ui/form/testimonial-form";
 import {ComponentProps} from "@/types/ComponentProps";
+import {fetchTestimonials} from "@/lib/actions";
+import {Card} from "@/types/Card";
+import {QueryResultRow} from "pg";
 
 const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const [showForm, setShowForm] = useState(false);
+    const [cards, setCards] = useState<Card[]>([]);
 
-    const cardData = [
-        {
-            id: 1,
-            name: "Person Z",
-            designation: "Software Engineer",
-            content: "Waiting for comments to be approved"
-        },
-        {
-            id: 2,
-            name: "Person Y",
-            designation: "Software Engineer",
-            content: "Waiting for comments to be approved"
-        }, {
-            id: 3,
-            name: "Person X",
-            designation: "Software Engineer",
-            content: "Waiting for comments to be approved"
-        },
-    ];
+    const fetchData = async () => {
+        try {
+            const index = 0;
+            const result = await fetchTestimonials();
+            const data: Card[] = result.rows.map((row: QueryResultRow) => ({
+                id: index + 1,
+                name: row.fullname,
+                designation: row.position,
+                content: row.testimonial,
+            }));
+            setCards(data);
+        } catch (error) {
+            console.error("Error fetching testimonials:");
+        }
+    };
+
+
+    useEffect(() => {
+        fetchData();
+    }, [cards]);
+
 
     const handleLeaveCommentClick = () => {
         setShowForm(true);
@@ -62,9 +68,11 @@ const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
                 </div>
             </div>
             <div className="w-full md:w-1/2 h-full flex flex-col items-center justify-center">
-                <CardStack items={cardData}/>
-                <p className="text-center text-base text-neutral-500">Give the card a little extra time by simply
-                    hovering over it! 😉</p>
+                {cards.length > 0 && (
+                    <CardStack items={cards}/>
+                )}                <p className="text-center text-base text-neutral-500">Give the card a little extra
+                time by simply
+                hovering over it! 😉</p>
             </div>
         </div>
     );

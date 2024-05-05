@@ -32,3 +32,16 @@ export async function submitTestimonial(formData: FormData) {
         return {success: false, message: 'Retry sending your testimonial 😕'};
     }
 }
+
+export async function fetchTestimonials() {
+    try {
+        const testimonials = await sql`
+            SELECT fullname, email, position, role, testimonial
+            FROM testimonials
+            WHERE show = true
+        `;
+        return testimonials;
+    } catch (error) {
+        throw new Error('Error fetching testimonials: ');
+    }
+}
