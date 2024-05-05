@@ -11,13 +11,12 @@ import {QueryResultRow} from "pg";
 const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const [showForm, setShowForm] = useState(false);
     const [cards, setCards] = useState<Card[]>([]);
-
+    let index = 1;
     const fetchData = async () => {
         try {
-            const index = 0;
             const result = await fetchTestimonials();
             const data: Card[] = result.rows.map((row: QueryResultRow) => ({
-                id: index + 1,
+                id: index++,
                 name: row.fullname,
                 designation: row.position,
                 content: row.testimonial,
