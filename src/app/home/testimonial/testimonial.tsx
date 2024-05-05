@@ -21,6 +21,7 @@ const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
                 name: row.fullname,
                 designation: row.position,
                 content: row.testimonial,
+                extra: row.role,
             }));
             setCards(data);
         } catch (error) {
@@ -69,11 +70,14 @@ const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
             </div>
             <div className="w-full md:w-1/2 h-full flex flex-col items-center justify-center">
                 {cards.length > 0 && (
-                    <CardStack items={cards}/>
-                )}                <p className="text-center text-base text-neutral-500">Give the card a little extra
-                time by simply
-                hovering over it! 😉</p>
+                    <div className="relative h-56 w-96 md:h-56">
+                        <CardStack items={cards}/>
+                    </div>
+                )}
+                <p className="text-center text-base text-neutral-500">Give the card a little extra
+                    time by simply hovering over it! 😉</p>
             </div>
+
         </div>
     );
 }

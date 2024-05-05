@@ -3,4 +3,5 @@ export interface Card {
     name: string;
     designation: string;
     content: string;
+    extra: string;
 }

@@ -58,8 +58,8 @@ export function TestimonialForm({onClose}: TestimonialFormProps) {
                         <option value="Mentor">Mentor</option>
                         <option value="Lead Dev">Lead Dev</option>
                         <option value="Project Manager">Project Manager</option>
-                        <option value="Co-worker">Co-worker</option>
-                        <option value="Teacher">Teacher</option>
+                        <option value="Teammate">Teammate</option>
+                        <option value="Instructor">Instructor/Professor</option>
                     </Input>
                 </LabelInputContainer>
                 <LabelInputContainer className="mb-4">
