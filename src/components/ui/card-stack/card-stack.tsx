@@ -9,6 +9,7 @@ type Card = {
     name: string;
     designation: string;
     content: React.ReactNode;
+    extra: string;
 };
 
 export const CardStack = ({
@@ -54,7 +55,7 @@ export const CardStack = ({
     };
 
     return (
-        <div className="relative h-60 w-96 md:h-60">
+        <div className="relative h-64 w-96 md:h-64">
             {cards?.map((card, index) => {
                 const isStackedCard = index > 0 && index <= 3;
                 const isCurrentCard = index === hoveredIndex;
@@ -63,7 +64,7 @@ export const CardStack = ({
                     <motion.div
                         key={card?.id}
                         className={`absolute bg-white h-60 w-96 md:h-60 md:w-96 rounded-3xl p-4 shadow-xl ${
-                            isCurrentCard ? "border-4 border-slate-800 border-solid" : "" 
+                            isCurrentCard ? "border-4 border-slate-800 border-solid" : ""
                         } shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between`}
                         style={{
                             transformOrigin: "top center",
@@ -71,16 +72,21 @@ export const CardStack = ({
                             scale: 1 - index * SCALE_FACTOR,
                             zIndex: cards.length - index,
                             visibility: isStackedCard ? "visible" : "hidden",
+                            minHeight: "14rem",
                         }}
                         onMouseEnter={() => handleHover(index, true)}
                         onMouseLeave={() => handleHover(index, false)}
                     >
+
                         <div className="font-normal text-neutral-700">
                             {card?.content}
                         </div>
                         <div>
                             <p className="text-neutral-500 font-medium">
                                 {card?.name}
+                            </p>
+                            <p className="text-sky-950 font-normal">
+                                {card?.extra}
                             </p>
                             <p className="text-purple-900 font-normal">
                                 {card?.designation}
@@ -91,5 +97,6 @@ export const CardStack = ({
                 );
             })}
         </div>
-    );
+    )
+        ;
 };
