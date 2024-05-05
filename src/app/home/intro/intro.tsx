@@ -1,8 +1,9 @@
 'use client';
-import React, {PropsWithChildren, useState, useEffect} from "react";
+import React, {PropsWithChildren} from "react";
 import Image from "next/image";
 import avatar from "/public/images/avatar.png";
 import {Button} from "@/components/ui/button/moving-border";
+import downloadCV from "@/components/downloadCV";
 
 const Intro = ({children}: PropsWithChildren) => {
     return (
@@ -36,9 +37,10 @@ const Intro = ({children}: PropsWithChildren) => {
                             </div>
                             <div
                                 className="text-base sm:text-xl md:text-xl lg:text-base font-normal text-justify mt-14 text-slate-500">
-                                <Button>
+                                <Button onClick={downloadCV}>
                                     Download resume
                                 </Button>
+
                             </div>
                         </>
                     </div>

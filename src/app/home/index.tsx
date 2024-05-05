@@ -1,4 +1,4 @@
-import Intro from "@/components/ui/into/intro";
+import Intro from "@/app/home/intro/intro";
 import About from "@/app/home/about/about";
 import Projects from "@/app/home/projects/projects";
 import Testimonial from "@/app/home/testimonial/testimonial";
