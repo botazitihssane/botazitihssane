@@ -44,7 +44,7 @@ const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
     };
 
     return (
-        <div className="flex justify-center items-center flex-col md:flex-row m-5">
+        <div id={id} className="flex justify-center items-center flex-col md:flex-row m-5">
             {showForm && (
                 <div
                     className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-40 flex items-center justify-center z-50">

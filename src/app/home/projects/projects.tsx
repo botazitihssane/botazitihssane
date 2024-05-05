@@ -4,6 +4,7 @@ import {HoverEffect} from "@/components/ui/card/card-hover-effect";
 import {ComponentProps} from "@/types/ComponentProps";
 
 const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
+
     const projectItems = [
         {
             title: "Eval",
@@ -71,7 +72,7 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
     ];
 
     return (
-        <div className="flex justify-center items-center w-full h-full">
+        <div id={id} className="flex justify-center items-center w-full h-full">
             <div className="max-w-6xl w-full px-4">
                 <div className="flex flex-col items-center">
                     <div className="text-center w-full mt-5">
