@@ -55,13 +55,13 @@ export const CardStack = ({
 
     return (
         <div className="relative h-60 w-96 md:h-60">
-            {cards.map((card, index) => {
+            {cards?.map((card, index) => {
                 const isStackedCard = index > 0 && index <= 3;
                 const isCurrentCard = index === hoveredIndex;
 
                 return (
                     <motion.div
-                        key={card.id}
+                        key={card?.id}
                         className={`absolute bg-white h-60 w-96 md:h-60 md:w-96 rounded-3xl p-4 shadow-xl ${
                             isCurrentCard ? "border-4 border-slate-800 border-solid" : "" 
                         } shadow-black/[0.1] dark:shadow-white/[0.05] flex flex-col justify-between`}
@@ -76,16 +76,16 @@ export const CardStack = ({
                         onMouseLeave={() => handleHover(index, false)}
                     >
                         <div className="font-normal text-neutral-700">
-                            {card.content}
+                            {card?.content}
                         </div>
                         <div>
                             <p className="text-neutral-500 font-medium">
-                                {card.name}
+                                {card?.name}
                             </p>
                             <p className="text-purple-900 font-normal">
-                                {card.designation}
+                                {card?.designation}
                             </p>
-                            <p className="text-neutral-500 font-medium flex justify-end">{`${card.id}/${cards.length}`}</p>
+                            <p className="text-neutral-500 font-medium flex justify-end">{`${card?.id}/${cards?.length}`}</p>
                         </div>
                     </motion.div>
                 );
