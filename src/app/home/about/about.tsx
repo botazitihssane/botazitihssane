@@ -4,7 +4,7 @@ import {ComponentProps} from "@/types/ComponentProps";
 
 const About = ({children, id}: PropsWithChildren<ComponentProps>) => {
     return (
-        <div className="flex justify-center items-center min-h-screen m-5">
+        <div id={id} className="flex justify-center items-center min-h-screen m-5">
             <div
                 className="bg-slate-900/[0.8] border border-slate-800 backdrop-blur-base rounded-lg w-[1100px] min-h-[0] h-auto flex justify-center pr-10 pl-10 pt-6">
                 <div className="flex flex-col items-start mt-5">
