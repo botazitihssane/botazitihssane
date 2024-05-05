@@ -62,7 +62,7 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
         },
         {
             title: "Portfolio",
-            description: "A window into my journey, projects, skills, and testimonials, the site you're currently exploring.",
+            description: "A window intro my journey, projects, skills, and testimonials, the site you're currently exploring.",
             tools: [
                 "NextJs",
                 "Typescript"
