@@ -2,6 +2,7 @@ import Intro from "@/app/home/intro/intro";
 import About from "@/app/home/about/about";
 import Projects from "@/app/home/projects/projects";
 import Testimonial from "@/app/home/testimonial/testimonial";
+import Certificates from "@/app/home/certificates/certificates";
 
 export default function Main() {
     return (
@@ -10,6 +11,7 @@ export default function Main() {
                 <Intro/>
                 <About id="about"/>
                 <Projects id="projects"/>
+                <Certificates id="certificates"/>
                 <Testimonial id="testimonial"/>
             </div>
         </div>

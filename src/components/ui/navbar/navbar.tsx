@@ -22,6 +22,11 @@ export function FloatingNavbar() {
             icon: <TbBlockquote className="h-4 w-4 text-neutral-500 dark:text-white"/>,
             link: "/#testimonial"
         },
+        {
+            name: "Certificates",
+            icon: <TbBlockquote className="h-4 w-4 text-neutral-500 dark:text-white"/>,
+            link: "/#certificates"
+        },
     ];
 
     return (
