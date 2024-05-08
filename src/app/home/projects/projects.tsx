@@ -76,8 +76,8 @@ const Projects = ({children, id}: PropsWithChildren<ComponentProps>) => {
             <div className="max-w-6xl w-full px-4">
                 <div className="flex flex-col items-center">
                     <div className="text-center w-full mt-5">
-                        <h1 className="sm:text-base md:text-xl lg:text-xl text-white font-semibold mb-4">My
-                            projects</h1>
+                        <h1 className="sm:text-base md:text-xl lg:text-xl text-white font-semibold mb-4">
+                            Projects</h1>
                     </div>
                     <div className="w-full sm:w-auto">
                         <HoverEffect items={projectItems}/>
