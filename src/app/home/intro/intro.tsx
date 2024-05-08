@@ -24,10 +24,8 @@ const Intro = ({children}: PropsWithChildren) => {
                             <div
                                 className={"text-base sm:text-base md:text-base lg:text-base font-normal text-justify mt-6 text-slate-500"}>
                                 <p>I&apos;m a <span className="text-sky-500">software engineering intern </span>deeply
-                                    passionate about <span className="text-sky-500">full-stack development</span>,
-                                    particularly in <span className="text-pink-700"> Java</span>,<span
-                                        className="text-pink-700"> React</span>, and <span
-                                        className="text-pink-700">Angular</span>. I&apos;m driven by the
+                                    passionate about <span className="text-sky-500">full-stack development</span>.
+                                    I&apos;m driven by the
                                     excitement
                                     of building robust applications that seamlessly integrate frontend and backend
                                     technologies. Additionally, I&apos;m enthusiastic about exploring the potential

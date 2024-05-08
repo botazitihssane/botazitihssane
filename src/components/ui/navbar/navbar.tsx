@@ -1,6 +1,7 @@
 import React from "react";
 import {FloatingNav} from "./floating-navbar";
-import {TbBlockquote, TbDevicesCode, TbUserCode} from "react-icons/tb";
+import {TbBlockquote, TbCertificate, TbDevicesCode, TbToolsOff, TbUserCode} from "react-icons/tb";
+
 import useScrollTo from "@/hooks/useScrollTo";
 
 export function FloatingNavbar() {
@@ -14,7 +15,7 @@ export function FloatingNavbar() {
         },
         {
             name: "Skills",
-            icon: <TbUserCode className="h-4 w-4 text-neutral-500 dark:text-white"/>,
+            icon: <TbToolsOff className="h-4 w-4 text-neutral-500 dark:text-white"/>,
             link: "/#skills"
         },
         {
@@ -29,7 +30,7 @@ export function FloatingNavbar() {
         },
         {
             name: "Certificates",
-            icon: <TbBlockquote className="h-4 w-4 text-neutral-500 dark:text-white"/>,
+            icon: <TbCertificate className="h-4 w-4 text-neutral-500 dark:text-white"/>,
             link: "/#certificates"
         },
     ];
