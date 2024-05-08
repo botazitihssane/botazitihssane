@@ -13,6 +13,11 @@ export function FloatingNavbar() {
             link: "/#about"
         },
         {
+            name: "Skills",
+            icon: <TbUserCode className="h-4 w-4 text-neutral-500 dark:text-white"/>,
+            link: "/#skills"
+        },
+        {
             name: "Projects",
             icon: <TbDevicesCode className="h-4 w-4 text-neutral-500 dark:text-white"/>,
             link: "/#projects"
