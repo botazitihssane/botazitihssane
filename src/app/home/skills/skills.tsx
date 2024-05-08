@@ -25,7 +25,7 @@ const Skills = ({children, id}: PropsWithChildren<ComponentProps>) => {
                         <div className="text-start">
                             {skillSets.map((set, index) => (
                                 <div key={index}>
-                                    <h2 className="text-slate-500 sm:text-base md:text-xl lg:text-xl font-semibold mb-2">{set.title}</h2>
+                                    <h2 className=" text-slate-500 text-base font-semibold mb-2">{set.title}</h2>
                                     <div
                                         className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 w-full mb-5 max-w-7xl mx-auto gap-10">
                                         {set.skills.map((skill, idx) => (
