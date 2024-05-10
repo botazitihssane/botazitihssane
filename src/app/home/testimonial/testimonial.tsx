@@ -1,38 +1,38 @@
 'use client';
-import {PropsWithChildren, useEffect, useState} from "react";
+import {PropsWithChildren, useState} from "react";
 import {CardStack} from "@/components/ui/card-stack/card-stack";
 import {HoverBorderGradient} from "@/components/ui/button/hover-border-gradiant-button";
 import {TestimonialForm} from "@/components/ui/form/testimonial-form";
 import {ComponentProps} from "@/types/ComponentProps";
-import {fetchTestimonials} from "@/lib/actions";
 import {Card} from "@/types/Card";
-import {QueryResultRow} from "pg";
 
 const Testimonial = ({children, id}: PropsWithChildren<ComponentProps>) => {
     const [showForm, setShowForm] = useState(false);
-    const [cards, setCards] = useState<Card[]>([]);
-    let index = 1;
-    const fetchData = async () => {
-        try {
-            const result = await fetchTestimonials();
-            const data: Card[] = result.rows.map((row: QueryResultRow) => ({
-                id: index++,
-                name: row.fullname,
-                designation: row.position,
-                content: row.testimonial,
-                extra: row.role,
-            }));
-            setCards(data);
-        } catch (error) {
-            console.error("Error fetching testimonials:");
+
+    const cards: Card[] = [
+        {
+            id: 1,
+            name: 'Amina Belkiyal',
+            extra: 'Teammate',
+            designation: 'Software Engineering Student',
+            content: 'Ihssane and I were classmates at Emsi Marrakech. We worked together on two projects, fostering a respectful and organized teamwork environment. I would gladly collaborate with her again.'
+        },
+        {
+            id: 2,
+            name: 'Nadia Ajmaoui',
+            extra: 'Teammate',
+            designation: 'Software Engineering Student',
+            content: 'I worked with Ihssane in a lot of academic projects i can say that she is such a great person that you can collaborate with easily and good at finding solutions and respect deadlines 👌'
+        },
+        {
+            id: 3,
+            name: 'Mohamed Idmansour',
+            extra: 'Lead Dev',
+            designation: 'Project Team Lead',
+            content: 'Working with Ihssane on our project was a positive experience. I appreciated her sense of responsibility and organization. Her efficient work contributed to the team\'s success. Keep up the good work!'
         }
-    };
 
-
-    useEffect(() => {
-        fetchData();
-    }, [cards]);
-
+    ]
 
     const handleLeaveCommentClick = () => {
         setShowForm(true);
