@@ -34,11 +34,10 @@ Let's connect and build something awesome together!
 
 ## GitHub Stats
 
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-
-![Ihssane's GitHub stats](https://github-readme-stats.vercel.app/api?username=botazitihssane&show_icons=true&theme=radical&hide=issues&rank_icon=github&include_all_commits=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=botazitihssane&hide_progress=true&hide=html,css&theme=radical)
-
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://github-readme-stats.vercel.app/api?username=botazitihssane&show_icons=true&theme=radical&hide=issues&rank_icon=github&include_all_commits=true"">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=botazitihssane&hide_progress=true&hide=html,css&theme=radical" ">
 </div>
 
-[![Ihssane's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=botazitihssane&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[//]: # ([![Ihssane's WakaTime stats]&#40;https://github-readme-stats.vercel.app/api/wakatime?username=botazitihssane&theme=radical&layout=compact&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
+
