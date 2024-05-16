@@ -38,15 +38,15 @@ Let's connect and build something awesome together!
 
 ### GitHub Contribution Summary
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=botazitihssane&theme=radical" alt="Ihssane's GitHub Contribution" width="600">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=botazitihssane&theme=radical" alt="Ihssane's GitHub Contribution"/>
 
-<div style="display: flex; justify-content: space-between; width: 600px;">
-    <div style="width: 40%;">
+<div style="display: flex; justify-content: space-between;">
+    <div style="height: 50px; padding-right: 5px">
         <h3>Top Languages</h3>
         <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=botazitihssane&hide_progress=true&hide=html,css&theme=radical">
     </div>
-    <div style="width: 48%;">
+    <div style="height: 50px;">
         <h3>Github Streak</h3>
-        <img src="https://streak-stats.demolab.com?user=botazitihssane&theme=radical" alt="Ihssane's GitHub streak">
+<img src="https://streak-stats.demolab.com?user=botazitihssane&theme=radical" alt="Ihssane's GitHub streak"/>
     </div>
 </div>
