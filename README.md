@@ -1,12 +1,11 @@
 # Hi there! 👋 I'm Ihssane Botazit
 
-<p>
-<img align="right" src="/public/images/avatar.png" alt="Ihssane Botazit" width="200">
-A passionate software engineer with a degree in Computer Science and Networks Engineering from Moroccan School of Engineering. Welcome to my GitHub profile!
-
-I'm always open to collaboration and eager to contribute to exciting projects. Whether it's coding, brainstorming
-ideas,or providing feedback, I'm here to help. Let's collaborate and create something amazing together!
-
+<div style="display: flex; align-items: center;">
+    <img align="right" src="/public/images/avatar.png" alt="Ihssane Botazit" width="170" style="margin-right: 20px;">
+    <p style="margin-bottom: 0;">A passionate software engineer with a degree in Computer Science and Networks Engineering from Moroccan School of Engineering. Welcome to my GitHub profile!</p>
+</div>
+<p style="margin-top: 0; margin-bottom: 0;">
+    I'm always open to collaboration and eager to contribute to exciting projects. Whether it's coding, brainstorming ideas, or providing feedback, I'm here to help. Let's collaborate and create something amazing together!
 </p>
 
 ## Languages and tools
