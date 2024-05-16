@@ -6,11 +6,11 @@ Engineering. Welcome to my GitHub profile!
 I'm always open to collaboration and eager to contribute to exciting projects. Whether it's coding, brainstorming ideas,
 or providing feedback, I'm here to help. Let's collaborate and create something amazing together!
 
-## Languages
+## Languages and tools
 
 [![Web Development Skills](https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,html,css,bootstrap,php,sass,tailwind,ts,dart,solidity)](https://skillicons.dev)
 
-[![Backend Development Skills](https://skillicons.dev/icons?i=angular,django,nextjs,react,spring,flutter)](https://skillicons.dev)
+[![Frameworks ](https://skillicons.dev/icons?i=angular,django,nextjs,react,spring,flutter,maven,vite)](https://skillicons.dev)
 
 [![Database Management Skills](https://skillicons.dev/icons?i=mysql,postgres,sqlite)](https://skillicons.dev)
 
@@ -22,13 +22,13 @@ or providing feedback, I'm here to help. Let's collaborate and create something 
 
 [![Testing and Quality Assurance Skills](https://skillicons.dev/icons?i=jest,postman)](https://skillicons.dev)
 
-## Contact Me
+## Connect With Me
 
-You can reach out to me via:
+Feel free to reach out through any of the following channels:
 
 - Email: [botazitihssane@outlook.com](mailto:botazitihssane@outlook.com)
 - LinkedIn: [Ihssane Botazit](https://www.linkedin.com/in/ihssanebotazit/)
-- Portfolio: [Check out my portfolio](https://portfolio-ihssane-projects.vercel.app/)
+- Portfolio: [Explore my portfolio](https://portfolio-ihssane-projects.vercel.app/)
 
 Let's connect and build something awesome together!
 
@@ -36,9 +36,9 @@ Let's connect and build something awesome together!
 
 <div style="display: flex; justify-content: space-between; align-items: flex-start;">
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=botazitihssane&show_icons=true&theme=radical&hide=issues&rank_icon=github&include_all_commits=true)
+![Ihssane's GitHub stats](https://github-readme-stats.vercel.app/api?username=botazitihssane&show_icons=true&theme=radical&hide=issues&rank_icon=github&include_all_commits=true)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=botazitihssane&hide_progress=true&hide=html,css&theme=radical)
 
 </div>
 
-[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=@botazitihssane&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+[![Ihssane's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=botazitihssane&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
