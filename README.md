@@ -10,19 +10,7 @@
 
 ## Languages and tools
 
-[![Web Development Skills](https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,html,css,bootstrap,php,sass,tailwind,ts,dart,solidity)](https://skillicons.dev)
-
-[![Frameworks ](https://skillicons.dev/icons?i=angular,django,nextjs,react,spring,flutter,maven,vite)](https://skillicons.dev)
-
-[![Database Management Skills](https://skillicons.dev/icons?i=mysql,postgres,sqlite)](https://skillicons.dev)
-
-[![DevOps and Infrastructure Skills](https://skillicons.dev/icons?i=docker,jenkins,rabbitmq,kafka,linux,vercel,git,github,gitlab)](https://skillicons.dev)
-
-[![Design and Prototyping Skills](https://skillicons.dev/icons?i=figma)](https://skillicons.dev)
-
-[![Cloud Services Skills](https://skillicons.dev/icons?i=firebase)](https://skillicons.dev)
-
-[![Testing and Quality Assurance Skills](https://skillicons.dev/icons?i=jest,postman)](https://skillicons.dev)
+[![Web Development Skills](https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,html,css,bootstrap,php,sass,tailwind,ts,dart,solidity,angular,django,nextjs,react,spring,flutter,maven,vite,mysql,postgres,sqlite,docker,jenkins,rabbitmq,kafka,linux,vercel,git,github,gitlab,figma,firebase,jest,postman)](https://skillicons.dev)
 
 ## Connect With Me
 
