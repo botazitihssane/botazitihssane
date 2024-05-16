@@ -1,12 +1,11 @@
 # Hi there! 👋 I'm Ihssane Botazit
 
-<div class="border border-gray-300 rounded-lg p-6 shadow-md flex items-center">
-    <div>
-        <p class="text-gray-700">A passionate software engineer with a degree in Computer Science and Networks Engineering from EMSI Moroccan School of Engineering. Welcome to my GitHub profile!</p>
-        <p class="text-gray-700">I'm always open to collaboration and eager to contribute to exciting projects. Whether it's coding, brainstorming ideas, or providing feedback, I'm here to help. Let's collaborate and create something amazing together!</p>
-    </div>
-    <img src="/public/images/avatar.png" alt="Ihssane Botazit" class="ml-auto">
-</div>
+<p>
+<img align="right" src="/public/images/avatar.png" alt="Ihssane Botazit" width="350">
+    A passionate software engineer with a degree in Computer Science and Networks Engineering from EMSI Moroccan School of Engineering. Welcome to my GitHub profile!
+    I'm always open to collaboration and eager to contribute to exciting projects. Whether it's coding, brainstorming ideas, or providing feedback, I'm here to help. Let's collaborate and create something amazing together!
+</p>
+
 ## Languages and tools
 
 [![Web Development Skills](https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,html,css,bootstrap,php,sass,tailwind,ts,dart,solidity)](https://skillicons.dev)
