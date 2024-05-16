@@ -22,6 +22,10 @@ Feel free to reach out through any of the following channels:
 
 Let's connect and build something awesome together!
 
+## WakaTime Stats Card
+
+[![Harlok's WakaTime stats](https://github-readme-stats.vercel.app/api/wakatime?username=botazitihssane&theme=radical&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
+
 ## GitHub Stats
 
 ### GitHub Contribution Summary
