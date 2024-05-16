@@ -10,7 +10,11 @@
 
 ## Languages and tools
 
-[![Web Development Skills](https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,html,css,bootstrap,php,sass,tailwind,ts,dart,solidity)](https://skillicons.dev)
+<div class="border border-gray-300 rounded-lg p-4" style="width: 300px;">
+    <a href="https://skillicons.dev" target="_blank">
+        <img src="https://skillicons.dev/icons?i=c,cpp,cs,java,python,js,html,css,bootstrap,php,sass,tailwind,ts,dart,solidity" alt="Web Development Skills" class="w-full h-auto">
+    </a>
+</div>
 
 [![Frameworks ](https://skillicons.dev/icons?i=angular,django,nextjs,react,spring,flutter,maven,vite)](https://skillicons.dev)
 
