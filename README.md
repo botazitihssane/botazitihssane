@@ -36,10 +36,17 @@ Let's connect and build something awesome together!
 
 ## GitHub Stats
 
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://github-readme-stats.vercel.app/api?username=botazitihssane&show_icons=true&theme=radical&hide=issues&rank_icon=github&include_all_commits=true">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=botazitihssane&hide_progress=true&hide=html,css&theme=radical">
+### GitHub Contribution Summary
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=botazitihssane&theme=radical" alt="Ihssane's GitHub Contribution" width="600">
+
+<div style="display: flex; justify-content: space-between; width: 600px;">
+    <div style="width: 40%;">
+        <h3>Top Languages</h3>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=botazitihssane&hide_progress=true&hide=html,css&theme=radical">
+    </div>
+    <div style="width: 48%;">
+        <h3>Github Streak</h3>
+        <img src="https://streak-stats.demolab.com?user=botazitihssane&theme=radical" alt="Ihssane's GitHub streak">
+    </div>
 </div>
-
-[//]: # ([![Ihssane's WakaTime stats]&#40;https://github-readme-stats.vercel.app/api/wakatime?username=botazitihssane&theme=radical&layout=compact&#41;]&#40;https://github.com/anuraghazra/github-readme-stats&#41;)
-
